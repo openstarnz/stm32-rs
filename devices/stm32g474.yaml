@@ -9,7 +9,7 @@ VREFBUF:
     - "VREFBUF_"
 
 _derive:
-  SPI4:SPI1
+  SPI4: SPI1
 
 _include:
  - ./common_patches/g4_rcc.yaml
