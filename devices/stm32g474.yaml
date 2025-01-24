@@ -8,6 +8,9 @@ VREFBUF:
   _strip:
     - "VREFBUF_"
 
+_derive:
+  SPI4:SPI1
+
 _include:
  - ./common_patches/g4_rcc.yaml
  - ./common_patches/g4_exti.yaml
